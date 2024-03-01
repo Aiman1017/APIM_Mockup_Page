@@ -1,0 +1,38 @@
+.cardView {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.Card {
+    margin: 1rem 0 2rem 0;
+    line-height: 1.5rem;
+    font-size: large;
+    font-weight: 100;
+    max-height: 45svh;
+    max-width: 25svw;
+    display: block;
+}
+
+.Card img {
+    margin-bottom: -10px;
+    width: 25svw;
+    height: 25svh;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.CardBody {
+    border: 1px black solid;
+    background-color: #F7F7F7;
+    padding: 1rem;
+}
+
+.publisherInformationView {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ratingInformationView {
+    margin: 1rem 0 0 0;
+}

@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: #99B6FF;
+    max-height: 10svh;
+    padding-inline: 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.vertical-hr {
+    border-left: 2px solid black;
+    height: 5svh;
+    margin: 1rem 0.5rem;
+}
+
+div.ViewOption{
+    display: flex;
+}
+
+div.ViewOption > a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 1rem;
+}
+
+div.ViewOption > a.active{
+    background-color: white;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    /* bor */
+}
+
+div.SearchBar{
+    display: flex;
+    margin: 1rem 0.5rem;
+    height: 5svh;
+}
+
+div.SearchBar > p{
+    margin: 0.5rem 0 0 1rem;
+}
+
+div.UserName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 1rem;
+}
+
+div.UserName > span.vertical-hr2 {
+    border-left: 2px solid black;
+    height: 9svh;
+    margin: 0 1rem;
+}
+
+div.UserName > p{
+    margin-inline: 1rem;
+}
